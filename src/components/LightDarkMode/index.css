@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.mode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .mode-container {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+  }
+}
+.header {
+  text-align: center;
+  
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    font-size: 48px;}}
+
+    .app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 24px;
+}
+
+.container {
+  text-align: center;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+  .btn-container {
+  text-align: center;
+  margin-top: 24px;
+}
+.mode-btn {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: solid 1px #000000;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.light-mode {
+  background-color: #000000;
+}
+.dark-mode {
+  background-color: #ffffff;
+}
+.light-header{
+    color:#ffffff;
+}
+.dark-header{
+    color: #000000;
+
+}
